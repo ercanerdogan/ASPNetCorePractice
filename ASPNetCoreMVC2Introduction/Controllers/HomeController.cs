@@ -77,7 +77,7 @@ namespace ASPNetCoreMVC2Introduction.Controllers
 
         }
 
-        public IActionResult Index9()
+        public IActionResult Index10()
         {
             return RedirectToAction("Index5");
         }
