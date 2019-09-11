@@ -76,5 +76,10 @@ namespace ASPNetCoreMVC2Introduction.Controllers
             return Json(employees);
 
         }
+
+        public IActionResult Index9()
+        {
+            return RedirectToAction("Index5");
+        }
     }
 }
