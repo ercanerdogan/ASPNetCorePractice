@@ -1,0 +1,11 @@
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\bin\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.deps.json
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\bin\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.runtimeconfig.json
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\bin\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.runtimeconfig.dev.json
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\bin\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.dll
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\bin\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.pdb
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\obj\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.csprojResolveAssemblyReference.cache
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\obj\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.csproj.CoreCompileInputs.cache
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\obj\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.AssemblyInfoInputs.cache
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\obj\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.AssemblyInfo.cs
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\obj\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.dll
+E:\Projects\.netCore\firstCoreProject\ASPNetCoreMVC2Introduction\ASPNetCoreMVC2Introduction\obj\Debug\netcoreapp2.0\ASPNetCoreMVC2Introduction.pdb

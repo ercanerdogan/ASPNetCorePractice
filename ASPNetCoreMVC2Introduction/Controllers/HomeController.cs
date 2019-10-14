@@ -81,5 +81,26 @@ namespace ASPNetCoreMVC2Introduction.Controllers
         {
             return RedirectToAction("Index5");
         }
+
+        public JsonResult Index11(string pName)
+        {
+            List<Employee> employees = new List<Employee>
+            {
+                new Employee{ID=1, FirstName ="Ercan", LastName ="Erdogan", CityID=35 },
+                new Employee{ID=2, FirstName ="Hakan", LastName ="Erdogan", CityID=35 }
+
+            };
+
+            if (String.IsNullOrEmpty(pName))
+            {
+                return Json(employees);
+            }
+
+            var result = employees.Where(e => e.FirstName.ToLower().Contains(pName));
+            
+            return Json(result);
+
+
+        }
     }
 }
