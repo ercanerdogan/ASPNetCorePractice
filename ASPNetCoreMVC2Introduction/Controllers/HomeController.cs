@@ -97,10 +97,17 @@ namespace ASPNetCoreMVC2Introduction.Controllers
             }
 
             var result = employees.Where(e => e.FirstName.ToLower().Contains(pName));
-            
+
             return Json(result);
 
 
+        }
+        public ViewResult EmployeeForm()
+        {
+
+            return View();
+
+            
         }
     }
 }
