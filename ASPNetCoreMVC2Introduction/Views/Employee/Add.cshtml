@@ -1,0 +1,26 @@
+﻿
+@model ASPNetCoreMVC2Introduction.Models.EmployeeAddViewModel;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Add</title>
+</head>
+<body>
+    <form asp-controller="Employee" asp-action="Add">
+        Id          : <input asp-for="Employee.ID" /><br />
+        First Name  : <input asp-for="Employee.FirstName" /><br />
+        Last Name   : <input asp-for="Employee.LastName" /><br />
+        City        : <input asp-for="Employee.CityID" /><br />
+
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>

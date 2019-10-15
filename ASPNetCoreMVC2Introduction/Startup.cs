@@ -30,7 +30,7 @@ namespace ASPNetCoreMVC2Introduction
             {
                 routes.MapRoute(
                                 name:"default",
-                                template:"{controller=home}/{action=index}/{id?}"
+                                template:"{controller=Home}/{action=index}/{id?}"
                                 );
             });
 
