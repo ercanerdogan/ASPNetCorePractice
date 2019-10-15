@@ -15,10 +15,10 @@
 </head>
 <body>
     <form asp-controller="Employee" asp-action="Add">
-        Id          : <input asp-for="Employee.ID" /><br />
-        First Name  : <input asp-for="Employee.FirstName" /><br />
-        Last Name   : <input asp-for="Employee.LastName" /><br />
-        City        : <input asp-for="Employee.CityID" /><br />
+        <label asp-for="Employee.ID"></label><input asp-for="Employee.ID" /><br />
+        <label asp-for="Employee.FirstName"></label><input asp-for="Employee.FirstName" /><br />
+        <label asp-for="Employee.LastName"></label><input asp-for="Employee.LastName" /><br />
+        <label asp-for="Employee.CityID"></label><select asp-for="Employee.CityID" asp-items="Model.Cities"></select>  <br />
 
         <button type="submit">Add</button>
     </form>

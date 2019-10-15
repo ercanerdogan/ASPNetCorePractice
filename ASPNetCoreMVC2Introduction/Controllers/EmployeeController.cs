@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ASPNetCoreMVC2Introduction.Entities;
 using ASPNetCoreMVC2Introduction.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ASPNetCoreMVC2Introduction.Controllers
 {
@@ -15,7 +16,13 @@ namespace ASPNetCoreMVC2Introduction.Controllers
 
             var employeeAddViewModel = new EmployeeAddViewModel
             {
-                Employee = new Employee()
+                Employee = new Employee(),
+                Cities = new List<SelectListItem>
+                {
+                    new SelectListItem {Text="Izmir", Value = "35"},
+                    new SelectListItem {Text="Istanbul", Value="34"},
+                    new SelectListItem {Text="Ankara", Value="06"}
+                }
             };
             return View(employeeAddViewModel);
         }
