@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ASPNetCoreMVC2Introduction
@@ -26,13 +27,20 @@ namespace ASPNetCoreMVC2Introduction
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc(routes=>
-            {
-                routes.MapRoute(
-                                name:"default",
-                                template:"{controller=Home}/{action=index}/{id?}"
-                                );
-            });
+            app.UseMvc(ConfigureRoutes);
+
+            
+
+            //1 and 2 same routing type.
+            //1//app.UseMvcWithDefaultRoute();
+
+            //2//app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //                    name: "default",
+            //                    template: "{controller=Home}/{action=index}/{id?}"
+            //                    );
+            //});
 
 
             //app.Run(async (context) =>
@@ -40,5 +48,11 @@ namespace ASPNetCoreMVC2Introduction
             //    await context.Response.WriteAsync("Hello World!");
             //});
         }
+        private void ConfigureRoutes(IRouteBuilder routeBuilder)
+        {
+            routeBuilder.MapRoute("Default", "{controller=Home}/{action=Index2}/{id?}");
+            routeBuilder.MapRoute("MyRoute", "erc/{controller=Home}/{action=Index3}/{id?}");
+        }
+
     }
 }
