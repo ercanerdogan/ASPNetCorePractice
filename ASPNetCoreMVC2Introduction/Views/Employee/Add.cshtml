@@ -2,18 +2,8 @@
 @model ASPNetCoreMVC2Introduction.Models.EmployeeAddViewModel;
 
 
-@{
-    Layout = null;
-}
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Add</title>
-</head>
-<body>
     <form asp-controller="Employee" asp-action="Add">
         <label asp-for="Employee.ID"></label><input asp-for="Employee.ID" /><br />
         <label asp-for="Employee.FirstName"></label><input asp-for="Employee.FirstName" /><br />
@@ -26,5 +16,8 @@
         <br/>
         <employee-list count="3"></employee-list>
     </form>
-</body>
-</html>
+
+
+@section MySection{ 
+    Some Content
+}
